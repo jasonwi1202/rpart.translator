@@ -1,0 +1,23 @@
+Package: rpart.translator
+Type: Package
+Title: Tool For Simplifying Decision Trees into Table Readable Format
+Version: 1.0.1
+Authors@R: as.person(c(
+    "Jason Wittenauer <jwittenauer@huronconsultinggroup.com> [aut, cre]", 
+    "Justin Silva <jsilva@huronconsultinggroup> [aut]"
+  ))
+Description: This package contains a tool for formating a rpart decision tree model into a table of rules and subrules. This table is in a database friendly format to provide transparency into the model decision making process.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    rpart,
+    rpart.utils,
+    dplyr,
+    splitstackshape,
+    data.table,
+    reshape,
+    rlang
+Suggests: 
+    testthat
