@@ -1,7 +1,7 @@
 Package: rpart.translator
 Type: Package
 Title: Tool for Simplifying Decision Trees into Table Readable Format
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Jason", "Wittenauer", email = "jasonwi1202@gmail.com", role = "cre"), 
     person("Justin", "Silva", email = "justinsilva@hotmail.com", role = "aut"))
