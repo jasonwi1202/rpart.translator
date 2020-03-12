@@ -4,10 +4,10 @@ This is the source code for rpart.translator. This package will translate rpart 
 # Installation
 Installing local package in R:
 setwd("C:/pathtopackage")
-install.packages('rpart.translator_1.0.1.tar.gz'), repos=NULL, type='source')
+install.packages('rpart.translator_1.0.2.tar.gz'), repos=NULL, type='source')
 
 Installing local package in Docker:
-RUN R -e "install.packages('rpart.translator_1.0.1.tar.gz'), repos=NULL, type='source')"
+RUN R -e "install.packages('rpart.translator_1.0.2.tar.gz'), repos=NULL, type='source')"
 
 # Latest File
 The most recent build of the latest file can be found in the top level of this directory and labled rpart.translator_buildversion.tar.gz.
