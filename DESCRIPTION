@@ -16,7 +16,7 @@ Imports:
     dplyr,
     splitstackshape,
     data.table,
-    reshape,
+    reshape2,
     rlang
 Suggests: 
     testthat

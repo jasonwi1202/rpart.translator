@@ -44,7 +44,7 @@
 #' @import dplyr
 #' @import splitstackshape
 #' @importFrom data.table data.table
-#' @importFrom reshape melt
+#' @importFrom reshape2 melt
 #' @importFrom rlang .data
 #' @export
 #'
