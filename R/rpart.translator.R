@@ -30,7 +30,6 @@
 #' @references Terry Therneau and Beth Atkinson (2018) Authors and
 #' maintainers of rpart version 4.1-13. Brian Ripley (1999-2017) Producer of
 #' the initial R port and maintainer.
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #'
 #' library(rpart)
@@ -176,13 +175,13 @@ rpart.translator <- function(model, data) {
 
       # Count records, and Group By Rule, Subrules, Variable, Value. Also, reduce data set size for next steps.
       colnames(dataCSW)[colnames(dataCSW)==targetColumnName] <- "TargetActual"
-      
+
       if(model$method == "class"){
-        model$frame$TargetPredicted <- attributes(model)$ylevels[model$frame$yval] 
+        model$frame$TargetPredicted <- attributes(model)$ylevels[model$frame$yval]
       }else {
         model$frame$TargetPredicted <- model$frame$y
       }
-      
+
       model$frame$Rule <- as.character(rownames(model$frame))
 
       dataCSW <- left_join(dataCSW, model$frame[c("Rule", "TargetPredicted")], by="Rule")

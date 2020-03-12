@@ -55,5 +55,3 @@ Terry Therneau and Beth Atkinson (2018) Authors and
 maintainers of rpart version 4.1-13. Brian Ripley (1999-2017) Producer of
 the initial R port and maintainer.
 }
-\keyword{~kwd1}
-\keyword{~kwd2}
